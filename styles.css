@@ -1,0 +1,151 @@
+*{
+    font-family:"Roboto" ,sans-serif;
+    font-weight: lighter;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: cadetblue;
+    color: beige;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin: 20px;
+}
+a{text-decoration: none;
+color:white;
+padding: 1rem;
+}
+#logo{padding-top: 1rem;
+padding-bottom: 1rem;}
+
+.container {
+    display: flex;
+    flex-direction:column;
+    justify-items: center;
+    align-items: center;
+}
+.titles h1{
+    font-size: 50px;
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:red ;
+    margin-bottom: 0px;
+    
+}
+.titles h4{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: grey;
+  text-align: end;
+  margin-top: 1px;
+    
+}
+.container  p {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+    
+}
+.main-work {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    border-bottom: 7px solid lightgray;
+}
+.main-work img{
+    margin-top: 50px;
+
+}
+#about{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.section-contact {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px,30px;
+}
+
+
+input {
+    justify-items: center;
+    align-items: center;
+    color: #000;
+    
+}
+
+#about h1{
+    font-size: 50px;
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blueviolet;
+    margin-bottom: 0px;
+}
+#about p {
+    
+        font-size: 30px;
+        text-align: center;
+       
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: italic;
+          
+}
+#resume{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+#resume h2{
+    font-size: 50px;
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom:0px;
+    text-align: center;
+    color: blue;
+}
+#resume p{
+    font-size: 30px;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: italic;
+}
+
+.contact-principal{
+border: 12px ;
+background-color:lightblue;
+padding: 40px 50px 100px 50px ;
+}
+.contact-principal h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 900;
+    font-style: italic;
+    color: black;
+
+}
+
+
+
+footer{
+   padding-top: 10px;
+    width: 100%;
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    margin-top: 10px;  
+}
